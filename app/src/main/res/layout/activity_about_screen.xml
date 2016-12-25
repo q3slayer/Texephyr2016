@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context="org.texephyr.texephyr2k16.AboutScreen">
+
+    <ImageView
+        android:contentDescription="@+id/topBar"
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="75dip"
+        android:background="@drawable/texebar" />
+
+    <RelativeLayout
+        android:id="@+id/botBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:background="#242D2E"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/botText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra Institute of Technology, Pune"
+            android:textColor="#FEFEFE"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:layout_above="@id/botBar"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_marginBottom="5dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:background="#242D2E"
+                    android:text="The Beginning"
+                    android:textColor="#FEFEFE"
+                    android:textSize="14dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="@string/txt_about"
+                    android:textColor="#242D2E"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#242D2E"
+                    android:text="Texephyr 2014"
+                    android:textColor="#FEFEFE"
+                    android:textSize="14dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="@string/txt_texe14"
+                    android:textColor="#242D2E"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#242D2E"
+                    android:text="Texephyr 2015"
+                    android:textColor="#FEFEFE"
+                    android:textSize="14dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="@string/txt_texe15"
+                    android:textColor="#242D2E"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#242D2E"
+                    android:text="Texephyr 2016"
+                    android:textColor="#FEFEFE"
+                    android:textSize="14dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="@string/txt_texe16"
+                    android:textColor="#242D2E"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#242D2E"
+                    android:text="Texephyr 2017"
+                    android:textColor="#FEFEFE"
+                    android:textSize="14dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="@string/txt_texe17"
+                    android:textColor="#242D2E"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

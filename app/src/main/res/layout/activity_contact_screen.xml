@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="org.texephyr.texephyr2k16.ContactScreen">
+
+    <ImageView
+        android:contentDescription="@+id/topBar"
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="75dip"
+        android:background="@drawable/texebar" />
+
+    <RelativeLayout
+        android:id="@+id/botBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:background="#242D2E"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/botText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra Institute of Technology, Pune"
+            android:textColor="#FEFEFE"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:layout_above="@id/botBar"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_marginBottom="5dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:background="#242D2E"
+                    android:text="Address"
+                    android:textColor="#FEFEFE"
+                    android:textSize="16dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="MIT Group of institutions, S. No. 124, LIC Colony, MIT Campus, Paud Road, Kothrud, Pune - 411038"
+                    android:textColor="#242D2E"
+                    android:textSize="14dip"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/address"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#242D2E"
+                    android:text="Contact"
+                    android:textColor="#FEFEFE"
+                    android:textSize="16dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="Akshat Mehta - 7875948636"
+                    android:textColor="#242D2E"
+                    android:textSize="14dip"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/contact"
+                    android:drawableRight="@drawable/rightarrow"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="#242D2E"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="Himanshu Rathi - 8805497551"
+                    android:textColor="#242D2E"
+                    android:textSize="14dip"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/contact"
+                    android:drawableRight="@drawable/rightarrow"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#242D2E"
+                    android:text="Email"
+                    android:textColor="#FEFEFE"
+                    android:textSize="16dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="info@texephyr.org"
+                    android:textColor="#242D2E"
+                    android:textSize="14dip"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/email"
+                    android:drawableRight="@drawable/rightarrow"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#242D2E"
+                    android:text="Website"
+                    android:textColor="#FEFEFE"
+                    android:textSize="16dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="www.texephyr.org"
+                    android:textColor="#242D2E"
+                    android:textSize="14dip"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/website"
+                    android:drawableRight="@drawable/rightarrow" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#242D2E"
+                    android:text="Social Media"
+                    android:textColor="#FEFEFE"
+                    android:textSize="16dip"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="Facebook"
+                    android:textColor="#242D2E"
+                    android:textSize="14dip"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/facebook"
+                    android:drawableRight="@drawable/rightarrow"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="#242D2E"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:drawablePadding="10dip"
+                    android:background="@drawable/main_button"
+                    android:text="Instagram"
+                    android:textColor="#242D2E"
+                    android:textSize="14dip"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/instagram"
+                    android:drawableRight="@drawable/rightarrow"/>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

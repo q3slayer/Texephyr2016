@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_computer_events_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="org.texephyr.texephyr2k16.ComputerEventsScreen">
+
+    <ImageView
+        android:contentDescription="@+id/topBar"
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/texebar" />
+
+    <RelativeLayout
+        android:id="@+id/botBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:background="#242D2E"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/botText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra Institute of Technology, Pune"
+            android:textColor="#FEFEFE"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBar"
+        android:layout_above="@id/botBar"
+        android:padding="10dip"
+        android:layout_marginBottom="5dip">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dip"
+                android:background="#242D2E"
+                android:text="Computer Events"
+                android:textColor="#FEFEFE"
+                android:textSize="16dip"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <ListView
+                android:id="@+id/eventList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadeScrollbars="true"
+                android:dividerHeight="1dip"
+                android:background="#FEFEFE"
+                android:divider="#242D2E">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

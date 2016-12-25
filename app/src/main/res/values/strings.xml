@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_name">Texephyr2k16</string>
+    <string name="txt_about">2014 saw a breakthrough with the launch of Texephyr, a technological festival oranized by the students of Maharashtra Institute of Technology, Pune, with the aim of celebrating technology and innovation.</string>
+    <string name="txt_texe14">Texephyr 2014 was based on \'Conquering Horizons\', which signified the method by which today\'s technology is advancing and it represented imagination and will power to reach the unreached.</string>
+    <string name="txt_texe15">Texephyr 2015 supported the theme \'Swachh Bharat Technology\', which signified the departure of something that is prevalent and pursuing the unaccomplished with the help of cutting edge technology and innovation.</string>
+    <string name="txt_texe16">Texephyr 2016 promoted \'Age of Digitization\' and ensured creation of digital infrastructure for delivering services digitally and increased digital literacy.</string>
+    <string name="txt_texe17">In today\'s world, everyone is surrounded by smartphones and smart gadgets. Taking cue from the same, Texephyr 2017 is committed to \'Smart City\' - a new and bold initiative by the Government of India to drive economic growth by harnessing technology that leads to smart outcomes.</string>
+
+    <string-array name="title_computer">
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+    </string-array>
+
+    <string-array name="tagline_computer">
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+    </string-array>
+
+    <array name="image_computer">
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+    </array>
+
+    <string-array name="desc_computer">
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+    </string-array>
+
+    <string-array name="rules_computer">
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+    </string-array>
+
+    <string-array name="contact_computer">
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+    </string-array>
+
+    <string-array name="title_mechanical">
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+    </string-array>
+
+    <string-array name="tagline_mechanical">
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+    </string-array>
+
+    <array name="image_mechanical">
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+    </array>
+
+    <string-array name="desc_mechanical">
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+    </string-array>
+
+    <string-array name="rules_mechanical">
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+    </string-array>
+
+    <string-array name="contact_mechanical">
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+    </string-array>
+
+    <string-array name="title_it">
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+    </string-array>
+
+    <string-array name="tagline_it">
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+    </string-array>
+
+    <array name="image_it">
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+    </array>
+
+    <string-array name="desc_it">
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+    </string-array>
+
+    <string-array name="rules_it">
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+    </string-array>
+
+    <string-array name="contact_it">
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+    </string-array>
+
+    <string-array name="title_entc">
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+        <item>Codestorm</item>
+        <item>Algoholics</item>
+    </string-array>
+
+    <string-array name="tagline_entc">
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+        <item>Tagline of Codestorm.</item>
+        <item>Getting high on efficiency.</item>
+    </string-array>
+
+    <array name="image_entc">
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+        <item>@drawable/texeglobe</item>
+    </array>
+
+    <string-array name="desc_entc">
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+        <item>This is the description of Codestorm. Codestorm is a coding event.</item>
+        <item>This is the description of Algoholics. Algoholics is an algorithm event.</item>
+    </string-array>
+
+    <string-array name="rules_entc">
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+        <item>Rules of Codestorm</item>
+        <item>Rules of Algoholics</item>
+    </string-array>
+
+    <string-array name="contact_entc">
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+        <item>Saurabh - 9689281454</item>
+        <item>Nirav - 2344562345</item>
+    </string-array>
+</resources>
